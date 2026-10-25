@@ -236,7 +236,7 @@ function addAd(el) {
   tag.className = 'ad-tag'; tag.textContent = '(광고)';
   line.append(AD.text, tag);
   const a = document.createElement('a');
-  a.href = AD.url; a.textContent = '더 알아보기'; a.target = '_blank'; a.rel = 'noopener noreferrer sponsored';
+  a.href = AD.url; a.textContent = '자세히 알아보기'; a.target = '_blank'; a.rel = 'noopener noreferrer sponsored';
   ad.append(document.createElement('hr'), line, a, document.createElement('hr'));
   el.appendChild(ad);
 }
